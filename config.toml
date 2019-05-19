@@ -1,0 +1,60 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "pl"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Intensywna PL"
+  subtitle    = "Nowości w intensywnej terapii i medycynie okołooperacyjnej"
+
+  cover       = "img/blog-cover.jpg"
+  description = ""
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "IntensywnaPL"
+  fbName = "IntensywnaPL"
+  #githubName = "eueung"
+
+  logo = "intPL.png"
+  orgName = "@IntensywnaPL"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "@IntensywnaPL"
+  authorAvatar = "logasss.png"
+  authorLocation = "Polska, Kraków"
+  authorWebsite = "https://www.mp.pl/oit/"
+  authorDescription = ""
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Strona główna"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Posty"
+  url = "/tags/post/"
+  weight = 100
+
+[[menu.main]]
+  name = "Artykuły"
+  url = "/categories/artykuł/"
+  weight = 99
+
+[[menu.main]]
+  name = "Mp.pl"
+  url = "https://www.mp.pl/oit/"
+  weight = 95
