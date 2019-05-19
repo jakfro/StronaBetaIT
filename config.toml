@@ -7,7 +7,7 @@ paginate        = 6
 
 [params]
   title       = "Intensywna PL"
-  subtitle    = "Nowości w intensywnej terapii i medycynie okołooperacyjnej"
+  subtitle    = "Nowości w intensywnej terapii i medycynie okołooperacyjnej :)"
 
   cover       = "img/blog-cover.jpg"
   description = ""
