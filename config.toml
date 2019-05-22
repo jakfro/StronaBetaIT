@@ -23,14 +23,14 @@ DefaultContentLanguage = "pl"
 
   logo = "/photos/intPL.png"
   orgName = "@IntensywnaPL"
-  orgWebsite = "https://www.telematika.org"
-  orgDescription = "Here is a description placeholder for your org"
+  orgWebsite = "https://intensywna.com"
+  orgDescription = "Intensywnie o intensywnej"
 
-  author = "@IntensywnaPL"
-  authorAvatar = "/photos/logasss.png"
+  #author = "@IntensywnaPL"
+  #authorAvatar = "/photos/logasss.png"
   authorLocation = "Polska, Kraków"
-  authorWebsite = "https://www.mp.pl/oit/"
-  authorDescription = ""
+  authorWebsite = "https://intensywna.com"
+  authorDescription = "Intensywnie o intensywnej"
 
   pageNotFoundTitle = "404 - Page not found"
 
