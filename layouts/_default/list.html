@@ -8,22 +8,18 @@
   <div class="inner">
     <div class="post-feed">
       {{ partial "post-list" . }}
-      <div class="pagination">
-        <nav>
-        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-            {{ if .Paginator.HasPrev }}
-          <a class="btn newer" href="{{.Paginator.Prev.URL}}" title="{{ .Site.Data.l10n.pagination.newer }}">&laquo; {{ .Site.Data.l10n.pagination.newer }}</a>
-          {{ end }}
-        {{ end }}
-          <p class="counter">{{ .Site.Data.l10n.pagination.page }} {{ .Paginator.PageNumber}} {{ .Site.Data.l10n.pagination.of }} {{.Paginator.TotalPages}}</p>
-        
-        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-          {{ if .Paginator.HasNext }}
-          <a class="btn older" href="{{.Paginator.Next.URL}}" title="{{ .Site.Data.l10n.pagination.older }}">{{ .Site.Data.l10n.pagination.older }} &raquo;</a>
-          {{ end }}
-        {{ end }}
-        </nav>
-        </div>
+    </div>
+
+    <nav class="pagination" role="navigation">
+      {{if .Paginator.HasPrev}}
+          <a class="newer-posts" href="{{ .Paginator.Prev.URL }}">&larr; <span class="hide">Next Posts</span></a>
+      {{end}}
+      <span class="page-number"><span class="hide">Page {{ .Paginator.PageNumber }} of {{.Paginator.TotalPages}}</span>&nbsp;</span>
+      {{if .Paginator.HasNext}}
+          <a class="older-posts" href="{{ .Paginator.Next.URL }}"><span class="hide">Previous Posts</span> &rarr;</a>
+      {{end}}
+    </nav>
+  </div>
 </main>
 
 {{ partial "footer" . }}
