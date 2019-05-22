@@ -3,17 +3,13 @@ theme           = "casper-two"
 languageCode    = "pl"
 disqusShortname = ""
 paginate        = 6
-SectionPagesMenu = "main"
-defaultContentLanguage: "pl"
-
-languages:
-  pl:
-    weight: 1
-    languageName: "Polish"
+#SectionPagesMenu = "main"
+canonifyurls    = true
 
 [params]
   title       = "Intensywna PL"
   subtitle    = "Nowości w intensywnej terapii i medycynie okołooperacyjnej"
+  copyright   = "© 2019"
 
   cover       = "img/blog-cover.jpg"
   description = ""
