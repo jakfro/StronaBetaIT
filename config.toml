@@ -7,7 +7,7 @@ SectionPagesMenu = "main"
 defaultContentLanguage: "pl"
 
 languages:
-  sv:
+  pl:
     weight: 1
     languageName: "Polish"
 
