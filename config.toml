@@ -4,6 +4,7 @@ languageCode    = "pl"
 disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
+DefaultContentLanguage = "pl"
 
 [params]
   title       = "Intensywna PL"
