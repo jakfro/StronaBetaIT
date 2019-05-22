@@ -3,7 +3,7 @@ theme           = "casper-two"
 languageCode    = "pl"
 disqusShortname = ""
 paginate        = 6
-#SectionPagesMenu = "main"
+SectionPagesMenu = "main"
 defaultContentLanguage: "pl"
 
 languages:
